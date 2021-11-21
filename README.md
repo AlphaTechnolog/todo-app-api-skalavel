@@ -30,6 +30,13 @@ Then copy `.env.sample` to `.env`:
 cp -r ./.env.sample ./.env
 ```
 
+## Notes
+
+This api try to connect to a mongodb database specified in the `.env`
+file, you can change it address, changing the `MONGO_URI` environment variable
+
+*IMPORTANT NOTE*: Before run the API, you must start the mongodb service
+
 ## Running the API
 
 To run the APi, first you must build the typescript code:
