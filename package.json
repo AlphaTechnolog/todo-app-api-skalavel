@@ -1,0 +1,19 @@
+{
+  "name": "todo-api-mongodb-skalavel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist",
+    "dev": "tsc-watch --onSuccess 'node dist'"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.13",
+    "skalavel": "^0.1.20"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.2"
+  }
+}
